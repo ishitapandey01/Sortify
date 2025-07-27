@@ -1,22 +1,35 @@
-# Sorting algorithm visualizer
+# Sortify – Sorting Algorithm Visualizer
 
-This is a web application built using HTML, CSS, Javascript to visualize classic sorting algorithms such as bubble, insertion, selection, merge, quick 
+Sortify is a simple and interactive web application that visually demonstrates how popular sorting algorithms work step-by-step. It is built using HTML, CSS, and JavaScript – no frameworks involved!
 
-**Live-** [sorting visualizer](https://dharshakch97.github.io/sort-visualizer/) 
+## 🔗 Live Demo
 
-**Code-** [sort visualizer code](https://github.com/dharshakch97/sort-visualizer)
+👉 [Click here to view the live project](https://ishitapandey01.github.io/Sortify)
 
-## Purpose
+## 🧠 Features
 
-I made this sorting visualizer web application to improve my skills more in
-HTML, CSS, and JS. And to help the beginners in programming to gain more knowledge and understanding on sorting algorigthms by visualizing them.
+- Choose from multiple sorting algorithms
+- Customize the number of array elements
+- Control the animation speed
+- Visual and color-coded bar swapping in real-time
 
-## What the Sorting algorithms inside this application
+## 🧮 Supported Algorithms
 
-This application supports the following sorting algorithms:
+- ✅ Bubble Sort
+- ✅ Selection Sort
+- ✅ Insertion Sort
+- ✅ Merge Sort
+- ✅ Quick Sort
 
-1. **Bubble Sort**.
-2. **Insertion Sort**.
-3. **Selection Sort**.
-4. **Merge Sort**.
-5. **Quick Sort**.
+## 🛠 Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+## 🚀 How to Run Locally
+
+```bash
+git clone https://github.com/ishitapandey01/Sortify.git
+cd Sortify
+open index.html   # or use Live Server in VS Code
