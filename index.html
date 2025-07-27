@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sort Visualizer</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar">
+    <h1>Sorting Visualizer</h1>
+    <div class="menu">
+      <select class="algo-menu">
+        <option value="0">Select Algorithm</option>
+        <option value="1">Bubble Sort</option>
+        <option value="2">Selection Sort</option>
+        <option value="3">Insertion Sort</option>
+        <option value="4">Merge Sort</option>
+        <option value="5">Quick Sort</option>
+      </select>
+      <select class="speed-menu">
+        <option value="1">Slow</option>
+        <option value="2">Medium</option>
+        <option value="3" selected>Fast</option>
+      </select>
+      <select class="size-menu">
+        <option value="10">10 Bars</option>
+        <option value="25">25 Bars</option>
+        <option value="50" selected>50 Bars</option>
+        <option value="75">75 Bars</option>
+        <option value="100">100 Bars</option>
+      </select>
+      <button class="start">Sort</button>
+    </div>
+  </nav>
+
+  <main>
+    <div class="array"></div>
+  </main>
+
+  <footer>
+    <p>Sortify</p>
+  </footer>
+
+  <script src="js/helper.js"></script>
+  <script src="js/sort-algorithms.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
